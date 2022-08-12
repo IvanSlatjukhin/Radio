@@ -117,4 +117,11 @@ class RadioTest {
         radio.setCurrentVolume(volume);
         assertEquals(expected, radio.getCurrentVolume());
     }
+    @Test
+    void shouldVolumeTree() {
+        int volume = 101;
+        int expected = 0;
+        radio.setCurrentVolume(volume);
+        assertEquals(expected, radio.getCurrentVolume());
+    }
 }
